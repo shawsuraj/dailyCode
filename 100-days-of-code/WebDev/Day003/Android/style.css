@@ -1,0 +1,147 @@
+body {
+/*    Comment the line below to make backgroung white*/
+    background-color: dimgrey;
+}
+
+#heading {
+    text-align: center;
+    color: black;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+div div {
+/*    Color - Default*/
+/*    background-color: #a4ca39;*/
+/*    Color - Black*/
+    background-color: black;
+    position: relative;
+    
+}
+
+/*MAIN STRUCUTRE*/
+
+.android {
+    height: 404px;
+    width: 334px;
+    margin: 100px auto;
+}
+
+/*HEAD*/
+
+.a-head {
+    height: 150px;
+    width: 320px;
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
+    /*animation*/
+    transition:  all 0.3s ease-in-out;
+}
+
+/*ANTENAS*/
+
+.a-ant-left, .a-ant-right {
+    position: absolute;
+    width: 8px;
+    height: 70px;
+    top: -40px;
+    border-radius: 3px;
+    
+}
+
+.a-ant-right {
+    left: 70px;
+    transform: rotate(-30deg);
+}
+
+.a-ant-left {
+    right: 70px;
+    transform: rotate(30deg);
+}
+
+/*EYE*/
+
+.a-eye-left, .a-eye-right {
+    position: absolute; 
+    width: 30px;
+    height: 30px;
+    top: 60px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.a-eye-left {
+    left: 70px;
+}
+
+.a-eye-right {
+    right: 70px;
+}
+
+/*BODY*/
+
+.a-body {
+    top: 10px;
+    height: 260px;
+    width: 320px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+/*ARMS*/
+
+.a-arm-left, .a-arm-right {
+    position: absolute;
+    height: 180px;
+    width: 50px;
+    border-radius: 25px;
+    /*animation*/
+    transition:  all 0.3s ease-in-out;
+}
+
+.a-arm-left {
+    left: -58px;
+}
+
+.a-arm-right {
+    right: -58px;
+}
+
+/*LEGS*/
+
+.a-leg-left, .a-leg-right{
+    position: absolute;
+    top: 260px;
+    height: 115px;
+    width: 70px;
+    border-radius: 0 0 50px 50px;
+}
+
+.a-leg-left {
+    left: 67px;
+}
+
+.a-leg-right{
+    right: 67px;
+}
+
+/*ANIMATION*/
+
+.a-head:hover {
+    transform: rotate(-5deg) translate(-6px, -14px);
+}
+
+.a-arm-left:hover {
+    transform: rotate(20deg) translate(-25px, 5px);
+}
+
+.a-arm-right:hover {
+    transform: rotate(-20deg) translate(25px, 5px);
+}
+
+/*
+.a-body:hover {
+}*/
