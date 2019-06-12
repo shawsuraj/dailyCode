@@ -1,0 +1,105 @@
+body {
+    background-color: dimgray;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+div div{
+    position: relative;
+    background-color: #694a16;
+}
+
+.monkey {
+    height: 450px;
+    width: 450px;
+    background-color: whitesmoke;
+    margin: 100px auto;
+}
+
+.m-patches {
+    background-color: #D0BA96;
+}
+
+.m-head {
+    position: relative;
+    margin: 0px auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 50% / 45% 45% 55% 55%;
+}
+
+.mhe-left, .mhe-right {
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    border-radius: 100%;
+    background-color: black;
+    top: 54px;
+}
+
+.mhe-left {
+    left: 44px;
+}
+
+.mhe-right {
+    right: 44px;
+}
+
+.mhe-patch-left, .mhe-patch-right {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #D0BA96;
+    top: 41px;
+}
+
+.mhe-patch-left {
+    left: 31px;
+}
+
+.mhe-patch-right {
+    right: 31px;
+}
+
+.mhn-left, .mhn-right {
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    top: 80px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+.mhn-left {
+    left: 63px;
+}
+
+.mhn-right {
+    right: 63px;
+}
+
+.mh-mouth {
+    position: absolute;
+    left: 48px;
+    top: 85px;
+    width: 56px;
+    height: 27px;
+    border-bottom: 6px solid #000;
+    border-radius: 100%;
+    background-color: #D0BA96;
+}
+
+.mh-patch {
+    position: absolute;
+    height: 67px;
+    width: 108px;
+    top: 71px;
+    left: 22px;
+    background-color: #D0BA96;
+    border-radius: 100%;
+}
+
